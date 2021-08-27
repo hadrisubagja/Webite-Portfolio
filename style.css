@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* Color */
+    --color-primary: #0f4c5c;
+    --color-secondary: #619b8a;
+    --color-tertiary: #fff;
+
+    /* font color */
+    --font-color-1: #233d4d;
+    --font-color-2: #fff;
+
+
+}
+
+.navbar {
+    background-color: var(--color-primary);
+}
+
+
+.jumbotron {
+    padding: 3rem 1rem;
+    background-color: var(--color-secondary);
+    color: var(--font-color-2);
+}
+
+
+section h1 {
+    font-weight: 600;
+}
+
+.about {
+    padding: 50px 0;
+    color: var(--font-color-1);
+
+}
+
+.portfolio {
+    padding: 50px 0;
+    background-color: var(--color-secondary);
+    color: var(--font-color-2);
+
+}
+
+.contact {
+    padding: 50px 0;
+    color: var(--font-color-1);
+}
+
+
+.contact ul li {
+    color: var(--font-color-2);
+}
+
+
+.portfolio form {
+    font-weight: 300;
+}
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--font-color-2);
+}
+
+footer .d-flex a{
+    color: var(--font-color-2);
+    margin: 0 10px;
+}
+
